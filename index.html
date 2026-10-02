@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website CV Abiyu Rasyid Kurniawan, pelajar SMA yang tertarik pada bisnis dan kewirausahaan.">
+  <meta name="theme-color" content="#111318">
+  <title>Abiyu Rasyid Kurniawan | Personal CV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#home" class="brand" aria-label="Kembali ke halaman utama">
+      <span class="brand-mark">R</span>
+      <span>Rasyid<span class="brand-dot">.</span></span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Buka menu navigasi"
+      aria-expanded="false"
+      aria-controls="navMenu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Navigasi utama">
+      <a href="#home" data-id="Beranda" data-en="Home">Beranda</a>
+      <a href="#education" data-id="Pendidikan" data-en="Education">Pendidikan</a>
+      <a href="#experience" data-id="Pengalaman" data-en="Experience">Pengalaman</a>
+      <a href="#skills" data-id="Keahlian" data-en="Skills">Keahlian</a>
+      <a href="#contact" data-id="Kontak" data-en="Contact">Kontak</a>
+
+      <div class="nav-controls">
+        <button class="control-btn" id="languageToggle" aria-label="Change language">
+          EN
+        </button>
+        <button class="control-btn theme-btn" id="themeToggle" aria-label="Aktifkan mode gelap">
+          <span id="themeIcon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO DAN TENTANG SAYA -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+       
+      <div class="profile-frame">
+          <img
+            src="foto-rasyid.jpeg"
+            alt=""
+            class="profile-photo"
+          >
+      </div>
+
+        <p class="eyebrow" data-id="PELAJAR SMA • CALON PENGUSAHA"
+           data-en="HIGH SCHOOL STUDENT • ASPIRING ENTREPRENEUR">
+          PELAJAR SMA • CALON PENGUSAHA
+        </p>
+
+        <h1>Abiyu Rasyid<br><span>Kurniawan.</span></h1>
+
+        <p class="hero-subtitle"
+           data-id="Pelajar SMA yang tertarik pada bisnis, kepemimpinan, dan pengembangan diri."
+           data-en="A high school student interested in business, leadership, and personal growth.">
+          Pelajar SMA yang tertarik pada bisnis, kepemimpinan, dan pengembangan diri.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary"
+             data-id="Hubungi Saya" data-en="Contact Me">
+            Hubungi Saya
+          </a>
+        </div>
+
+        <div class="social-links" aria-label="Media sosial">
+          <a href="https://www.instagram.com/abyursyid/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Instagram Rasyid">Instagram ↗</a>
+          <a href="mailto:rasyidkurniawan1980@gmail.com"
+             aria-label="Email Rasyid">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="about-panel">
+        <p class="section-label"
+           data-id="01 / TENTANG SAYA" data-en="01 / ABOUT ME">
+          01 / TENTANG SAYA
+        </p>
+        <h2 data-id="Terus belajar, terus bertumbuh."
+            data-en="Keep learning, keep growing.">
+          Terus belajar, terus bertumbuh.
+        </h2>
+        <p
+          data-id="Saya adalah pelajar SMA yang memiliki semangat untuk terus belajar, mengembangkan kemampuan, dan mencari pengalaman baru. Melalui pengalaman berorganisasi sebagai Ketua Paskibra, saya belajar tentang kepemimpinan, kedisiplinan, tanggung jawab, dan kerja sama tim. Saya memiliki ketertarikan pada dunia bisnis dan kewirausahaan serta bercita-cita membangun usaha sendiri di masa depan."
+          data-en="I am a high school student eager to learn, develop my abilities, and gain new experiences. Through my experience as the leader of the Paskibra organization, I have learned about leadership, discipline, responsibility, and teamwork. I am interested in business and entrepreneurship, and I aspire to build my own business in the future.">
+          Saya adalah pelajar SMA yang memiliki semangat untuk terus belajar,
+          mengembangkan kemampuan, dan mencari pengalaman baru. Melalui
+          pengalaman berorganisasi sebagai Ketua Paskibra, saya belajar tentang
+          kepemimpinan, kedisiplinan, tanggung jawab, dan kerja sama tim.
+          Saya memiliki ketertarikan pada dunia bisnis dan kewirausahaan serta
+          bercita-cita membangun usaha sendiri di masa depan.
+        </p>
+      </div>
+    </section>
+
+    <!-- PENDIDIKAN -->
+    <section class="section content-section" id="education">
+      <p class="section-label"
+         data-id="02 / PENDIDIKAN" data-en="02 / EDUCATION">
+        02 / PENDIDIKAN
+      </p>
+      <h2 data-id="Perjalanan pendidikan."
+          data-en="Education journey.">
+        Perjalanan pendidikan.
+      </h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="timeline-date">2024 — 2027</p>
+          <h3>SMA Gunung Madu</h3>
+          <p data-id="Kelas XII • Jurusan IPA"
+             data-en="Grade 12 • Science stream">
+            Kelas XII • Jurusan IPA
+          </p>
+          <p class="muted"
+             data-id="Sedang menempuh pendidikan menengah atas."
+             data-en="Currently completing senior high school education.">
+            Sedang menempuh pendidikan menengah atas.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PENGALAMAN DAN PRESTASI -->
+    <section class="section content-section" id="experience">
+      <p class="section-label"
+         data-id="03 / PENGALAMAN & PRESTASI"
+         data-en="03 / EXPERIENCE & ACHIEVEMENTS">
+        03 / PENGALAMAN & PRESTASI
+      </p>
+      <h2 data-id="Belajar melalui pengalaman."
+          data-en="Learning through experience.">
+        Belajar melalui pengalaman.
+      </h2>
+
+      <div class="simple-list">
+        <article class="list-item">
+          <div class="list-icon" aria-hidden="true">01</div>
+          <div>
+            <p class="item-date">2024 — 2026</p>
+            <h3 data-id="Ketua Paskibra"
+                data-en="Paskibra Leader">
+              Ketua Paskibra
+            </h3>
+            <p data-id="Memimpin anggota, mengikuti latihan rutin, menjaga kedisiplinan, dan membangun kerja sama tim."
+               data-en="Led members, participated in regular training, maintained discipline, and encouraged teamwork.">
+              Memimpin anggota, mengikuti latihan rutin, menjaga kedisiplinan,
+              dan membangun kerja sama tim.
+            </p>
+          </div>
+        </article>
+
+        <article class="list-item">
+          <div class="list-icon" aria-hidden="true">02</div>
+          <div>
+            <p class="item-date"
+               data-id="Prestasi olahraga"
+               data-en="Sports achievements">
+              Prestasi olahraga
+            </p>
+            <h3 data-id="Juara 2 dan Juara 3"
+                data-en="2nd Place and 3rd Place">
+              Juara 2 dan Juara 3
+            </h3>
+            <p data-id="Prestasi dalam kompetisi bola voli antarsekolah."
+               data-en="Achievements in interschool volleyball competitions.">
+              Prestasi dalam kompetisi bola voli antarsekolah.
+            </p>
+          </div>
+        </article>
+
+        <article class="list-item">
+          <div class="list-icon" aria-hidden="true">03</div>
+          <div>
+            <p class="item-date"
+               data-id="Pengalaman organisasi"
+               data-en="Organizational experience">
+              Pengalaman organisasi
+            </p>
+            <h3 data-id="Seleksi Paskibra Tingkat Kabupaten"
+                data-en="Regency-Level Paskibra Selection">
+              Seleksi Paskibra Tingkat Kabupaten
+            </h3>
+            <p data-id="Mengikuti proses seleksi Paskibra tingkat kabupaten."
+               data-en="Participated in the regency-level Paskibra selection process.">
+              Mengikuti proses seleksi Paskibra tingkat kabupaten.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- KETERAMPILAN DAN MINAT -->
+    <section class="section content-section" id="skills">
+      <p class="section-label"
+         data-id="04 / KETERAMPILAN & MINAT"
+         data-en="04 / SKILLS & INTERESTS">
+        04 / KETERAMPILAN & MINAT
+      </p>
+      <h2 data-id="Hal yang terus saya kembangkan."
+          data-en="What I keep developing.">
+        Hal yang terus saya kembangkan.
+      </h2>
+
+      <div class="skill-group">
+        <h3 data-id="Keterampilan pribadi"
+            data-en="Personal skills">
+          Keterampilan pribadi
+        </h3>
+        <div class="tags">
+          <span data-id="Kepemimpinan" data-en="Leadership">Kepemimpinan</span>
+          <span data-id="Disiplin" data-en="Discipline">Disiplin</span>
+          <span data-id="Kerja sama tim" data-en="Teamwork">Kerja sama tim</span>
+          <span data-id="Tanggung jawab" data-en="Responsibility">Tanggung jawab</span>
+          <span data-id="Komunikasi" data-en="Communication">Komunikasi</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 data-id="Bahasa" data-en="Languages">Bahasa</h3>
+        <div class="tags">
+          <span data-id="Bahasa Indonesia" data-en="Indonesian">Bahasa Indonesia</span>
+          <span data-id="Bahasa Inggris — dasar" data-en="English — basic">
+            Bahasa Inggris — dasar
+          </span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 data-id="Minat dan hobi" data-en="Interests and hobbies">
+          Minat dan hobi
+        </h3>
+        <div class="tags">
+          <span data-id="Bisnis" data-en="Business">Bisnis</span>
+          <span data-id="Kewirausahaan" data-en="Entrepreneurship">Kewirausahaan</span>
+          <span data-id="Bola voli" data-en="Volleyball">Bola voli</span>
+          <span data-id="Olahraga" data-en="Sports">Olahraga</span>
+          <span data-id="Bermain gim" data-en="Gaming">Bermain gim</span>
+          <span data-id="Merajut" data-en="Knitting">Merajut</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="section contact-section" id="contact">
+      <p class="section-label"
+         data-id="05 / KONTAK" data-en="05 / CONTACT">
+        05 / KONTAK
+      </p>
+      <h2 data-id="Mari terhubung."
+          data-en="Let's connect.">
+        Mari terhubung.
+      </h2>
+      <p class="contact-description"
+         data-id="Terbuka untuk berkenalan, berbagi ide, dan membangun koneksi baru."
+         data-en="Open to connecting, sharing ideas, and building new connections.">
+        Terbuka untuk berkenalan, berbagi ide, dan membangun koneksi baru.
+      </p>
+
+      <div class="contact-grid">
+        <a class="contact-card"
+           href="mailto:rasyidkurniawan1980@gmail.com">
+          <span class="contact-symbol" aria-hidden="true">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">Kirim pesan ↗</span>
+        </a>
+
+        <a class="contact-card"
+           href="https://wa.me/6285838249557"
+           target="_blank" rel="noopener noreferrer">
+          <span class="contact-symbol" aria-hidden="true">↗</span>
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value"
+                data-id="Hubungi melalui WhatsApp"
+                data-en="Contact via WhatsApp">
+            Hubungi melalui WhatsApp
+          </span>
+        </a>
+
+        <a class="contact-card"
+           href="https://www.instagram.com/abyursyid/"
+           target="_blank" rel="noopener noreferrer">
+          <span class="contact-symbol" aria-hidden="true">◎</span>
+          <span class="contact-label">Instagram</span>
+          <span class="contact-value">@abyursyid ↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="footer-brand">Rasyid.</a>
+    <p data-id="Dibuat dengan semangat untuk terus berkembang."
+       data-en="Built with a passion for continuous growth.">
+      Dibuat dengan semangat untuk terus berkembang.
+    </p>
+    <p>© <span id="currentYear"></span> Abiyu Rasyid Kurniawan</p>
+    <a href="#home" class="back-to-top"
+       data-id="Kembali ke atas ↑" data-en="Back to top ↑">
+      Kembali ke atas ↑
+    </a>
+  </footer>
+</body>
+</html>
